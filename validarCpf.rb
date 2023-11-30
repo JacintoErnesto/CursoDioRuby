@@ -5,7 +5,8 @@ def validar_cpf(cpf)
 end
 
 # Exemplo de uso
-cpf_a_validar = '123.456.789-09'
+print "Encotra com o cpf : "
+cpf_a_validar = gets.chomp
 
 if validar_cpf(cpf_a_validar)
   puts "CPF válido!"
